@@ -1,6 +1,7 @@
 # extensive_kitchen_terraform
 
-extensive_kitchen_terraform test from [extensive_kitchen_terraform.html](https://newcontext-oss.github.io/kitchen-terraform/tutorials/extensive_kitchen_terraform.html)
+This project is to show the kitchen-ci configuration of terraform module on AWS base on the tutorial [Extensive Kitchen-Terraform
+](https://newcontext-oss.github.io/kitchen-terraform/tutorials/extensive_kitchen_terraform.html)
 
 ## Clone this project
 
