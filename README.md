@@ -8,13 +8,13 @@ This project is to show the kitchen-ci configuration of terraform module on AWS 
 - In a directory of your choice, clone the github repository :
   
     ```bash
-    git clone git@github.com:orlando-pereira/kitchen-ec2-example.git
+    git clone git@github.com:orlando-pereira/extensive_kitchen_terraform.git
     ```
 
 - Change into the directory :
   
     ```bash
-    cd kitchen-ec2-example
+    cd extensive_kitchen_terraform
     ```
 
 ## How to setup KitchenCI and RBENV (MacOS Mojave 10.14.5) :
@@ -43,16 +43,18 @@ This project is to show the kitchen-ci configuration of terraform module on AWS 
 - To install the particular version that we need, run the following command in the project directory:
   
     ```shell
-    rbenv install 2.3.1
+    rbenv install 2.5.1
     ```
 
 - Set local version to be used with command :
   
     ```shell
-    rbenv local 2.3.1
+    rbenv local 2.5.1
+
     ```
 
-- Previous step is going to create a file named .ruby-version, with the following content `2.3.1`
+- Previous step is going to create a file named .ruby-version, with the following content `2.5.1
+`
 
 - Next, [Bundler](https://bundler.io) needs to be installed, run `gem install bundler`, this would provide the dependencies that KitchenCI needs. It is going to install the Gems defined in the `Gemfile`
   
